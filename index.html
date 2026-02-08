@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Quality Care - Productos Naturales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🌿 Self Quality Care</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito (<span id="cart-count">0</span>)</a></li>
+                <li id="user-menu">
+                    <a href="login.html">Iniciar Sesión</a>
+                </li>
+                <li id="admin-menu" style="display:none;">
+                    <a href="admin.html">Panel Admin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Productos Naturales para Tu Cuidado Personal</h2>
+            <p>100% natural, 100% seguro, 100% efectivo</p>
+            <a href="productos.html" class="btn btn-primary">Ver Catálogo</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature-card">
+                <span class="icon">🌱</span>
+                <h3>100% Natural</h3>
+                <p>Productos elaborados con ingredientes naturales</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">✓</span>
+                <h3>Certificado</h3>
+                <p>Todos nuestros productos están certificados</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🚚</span>
+                <h3>Envío Rápido</h3>
+                <p>Entrega en 2-3 días hábiles</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">💚</span>
+                <h3>Garantía</h3>
+                <p>Satisfacción garantizada o tu dinero de vuelta</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bestsellers">
+        <div class="container">
+            <h2>Productos Destacados</h2>
+            <div id="bestsellers-container" class="products-grid">
+                <!-- Los productos se cargarán aquí con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Self Quality Care. Todos los derechos reservados.</p>
+            <p>Productos naturales para el cuidado personal 🌿</p>
+        </div>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/usuarios.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
